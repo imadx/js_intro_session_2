@@ -2,5 +2,5 @@
   "name": "John Doe",
   "age": 34,
   "marks": {"Maths": 40, "English": 60},
-  "favourites": ["Shoes", "Bicycles", "Trees"]
+  "favourites": ["SHOES", "BICYCLES", "TREES"]
 }
