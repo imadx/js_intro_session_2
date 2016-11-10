@@ -1,0 +1,30 @@
+.panes{
+  padding: 20px;
+}
+.description{
+  background: #006cc8;
+  color: #fff;
+  border-radius: 10px;
+}
+.wrapper{
+  margin-top: 20px;
+  background: #fbfbfb;
+}
+
+#content{
+  margin-top: 10px;
+  padding: 10px;
+  border: dashed thin #d7d7d7;
+  display: block;
+  width: 100%;
+  min-height: 30px;
+}
+
+.label{
+  display: inline-block;
+  min-width: 100px;
+  color: #999;
+}
+.student-details{
+  margin-bottom: 30px;
+}

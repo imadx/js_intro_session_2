@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AJAX Introduction</title>
+
+  <!-- include jQuery from CDN -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+  <!-- using bootstrap for styling -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+
+  <!-- some elements in bootstrap need javascript to function properly -->
+
+  <script src="js\tether.io.js"></script><!-- Tether for Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+
+  <!-- custom CSS stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+
+<div class="wrapper container">
+
+  <div class="panes description">
+    <h1>Introduction to AJAX with JSON</h1>
+    <p>This demonstrations loads a JSON file on the local server via AJAX and displays the formatted content</p>
+  </div>
+
+  <div class="panes action">
+    <div id="controller-json-btn" class="btn btn-primary">Click here to load the content</div>
+    <div id="content">
+      <span class="label">Name</span><span id="student-name" class="student-details"></span><br>
+      <span class="label">Age</span><span id="student-age" class="student-details"></span><br>
+      <span class="label">Marks</span><span id="student-marks" class="student-details"></span><br>
+      <span class="label">Favourites</span><span id="student-favourites" class="student-details"></span><br>
+    </div>
+  </div>
+</div>
+
+
+<!-- custom JS scripts -->
+<script src="js/controller-json.js"></script>
+
+</body>
+</html>
