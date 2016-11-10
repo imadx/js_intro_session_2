@@ -5,13 +5,13 @@ This is the repository for the code base of our 2nd session on "Introduction to 
 
 ### Set Proxy
 
-`git config --global http.proxy http://cachex.pdn.ac.lk:3128`
-`git config --global https.proxy http://cachex.pdn.ac.lk:3128`
+`git config --global http.proxy http://cachex.pdn.ac.lk:3128`  
+`git config --global https.proxy http://cachex.pdn.ac.lk:3128`  
 
 ### Unset Proxy
 
-`git config --global --unset http.proxy`
-`git config --global --unset https.proxy`
+`git config --global --unset http.proxy`  
+`git config --global --unset https.proxy`  
 
 ## To spin-up a Python HTTP Server
 
