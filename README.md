@@ -1,6 +1,20 @@
 # Introduction to Web Development Frameworks - Session 2
 This is the repository for the code base of our 2nd session on "Introduction to Web Development Frameworks"
 
+## Session Overview
+
+- Creating a Simple Web Page
+- Style using CSS
+- Integrating jQuery  
+
+- Introduction to AJAX
+- Minimal Example with AJAX
+
+- Hosting a simple server with python
+
+- Introduction to Flask - A lightweight Python web framework  
+
+
 ## Using git behind University Proxy
 
 ### Set Proxy
